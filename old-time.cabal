@@ -1,7 +1,6 @@
 cabal-version:  1.18
 name:           old-time
-version:        1.1.0.5
--- NOTE: Don't forget to update ./changelog.md
+version:        1.1.1.0
 license:        BSD3
 license-file:   LICENSE
 maintainer:     https://github.com/haskell/old-time
@@ -10,11 +9,8 @@ synopsis:       Time library
 category:       System
 build-type:     Configure
 description:
-    This package provides the old time library.
-    .
-    For new projects, the newer
-    <http://hackage.haskell.org/package/time time library>
-    is recommended.
+    This is a legacy package, please migrate away to
+    <http://hackage.haskell.org/package/time time> or elsewhere.
 
 tested-with:
   GHC == 9.14.1

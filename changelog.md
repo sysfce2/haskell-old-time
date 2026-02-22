@@ -1,5 +1,11 @@
 # Changelog for [`old-time` package](http://hackage.haskell.org/package/old-time)
 
+## 1.1.1.0  *Mar 2026*
+
+  * Workaround DST issues in `toClockTime . toUTCTime`, at least in some cases.
+  * Cabalize test suite.
+  * Document issues with `TimeDiff`.
+
 ## 1.1.0.5  *Jan 2026*
 
   * Remove unused `includes` field in `.cabal` file
